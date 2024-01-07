@@ -2,15 +2,13 @@
 #include <stdlib.h>
 #include <Python.h>
 /**
- * print_python_list_info - Print some basic info about Python lists
  * @p: PyObject
- *
  * Return: Nothing
  */
 void print_python_list_info(PyObject *p)
 {
 PyObject *item;
-PyListObject *list = (PyListObject *)p;
+ PyListObject *list = (PyListObject *p);
 int i, size, alloc;
 
 size = Py_SIZE(p);
