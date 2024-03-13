@@ -1,6 +1,7 @@
--- List all shows from tvshows rate by their rating.
-SELECT tv_shows.title, SUM(tv_show_rating.rating) AS rating_sum
-       FROM tv_shows
-       JOIN tv_show_rating ON tv_shows.id = tv_show_rating.show_id
-GROUP BY tv_shows.title
-ORDER BY rating_sum DESC;
+-- Lists all shows from hbtn_0d_tvshows_rate by their rating.
+SELECT `title`, SUM(`rate`) AS `rating`
+  FROM `tv_shows` AS t
+       INNER JOIN `tv_show_ratings` AS r
+       ON t.`id` = r.`show_id`
+ GROUP BY `title`
+ ORDER BY `rating` DESC;
