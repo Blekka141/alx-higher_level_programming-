@@ -37,6 +37,9 @@ This repository is dedicated to Python programming exercises, along with SQL and
 ### 0x0A-python-inheritance
 - Utilizing inheritance in Python, extending the functionality of classes.
 
+### 0x0A-python-inheritance
+- Utilizing inheritance in Python, extending the functionality of classes.
+
 ### 0x0B-python-input_output
 - Reading from and writing to files, along with serialization and deserialization of Python objects using JSON.
 
