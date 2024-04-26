@@ -37,9 +37,6 @@ This repository is dedicated to Python programming exercises, along with SQL and
 ### 0x0A-python-inheritance
 - Utilizing inheritance in Python, extending the functionality of classes.
 
-### 0x0A-python-inheritance
-- Utilizing inheritance in Python, extending the functionality of classes.
-
 ### 0x0B-python-input_output
 - Reading from and writing to files, along with serialization and deserialization of Python objects using JSON.
 
@@ -54,6 +51,12 @@ This repository is dedicated to Python programming exercises, along with SQL and
 
 ### 0x0F-python-object_relational_mapping
 - Connecting Python classes to MySQL databases using SQLAlchemy and performing CRUD operations.
+
+### 0x10. Python - Network #0
+- Basics of network programming in Python, focusing on interacting with web resources using HTTP.
+
+### 0x11. Python - Network #1
+- Network programming in Python. Dives deeper into using the Python packages `urllib` and `requests` for interacting with web resources.
 
 ### 0x12-javascript-warm_up
 - Basics of JavaScript for web programming.
